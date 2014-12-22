@@ -17,10 +17,7 @@
 
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation %>
-
-      <%= f.label :admin, "Admin" %>
-        <%= f.select :admin, options_for_select([["Yes", true], ["No", false]], :admin) %>
-
+        
 
         <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
     <% end %>
