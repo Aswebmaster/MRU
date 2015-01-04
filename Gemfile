@@ -48,9 +48,6 @@ group :test do
 end
 
 
-
-
-
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 
